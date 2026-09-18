@@ -1,0 +1,16 @@
+# path env python 
+path
+# add pycache for all files
+__pycache__
+#env 
+.env
+.venv/
+
+# Cloud credentials and local exports
+*.json
+!package.json
+*.pem
+*.key
+*.p12
+credentials/
+reports/
